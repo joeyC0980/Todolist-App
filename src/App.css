@@ -1,0 +1,120 @@
+*{
+    margin:0;
+    padding: 0;
+}
+
+
+.container{
+    background: linear-gradient(to right bottom,rgb(68, 64, 64),darkgrey);
+    /* background-image: url("ry-collections-gifs-beach-praia-beach-luxury-rich-papel-de-parede-gif-personagens-ruivas-gif copy.gif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center; */
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.app-wrapper{
+    background-color: rgb(121, 219, 239);
+    min-width: 450px;
+    min-height: 650px;
+    padding:30px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    box-shadow: 3px 6px 40px rgb(152, 152, 238);
+    margin-bottom: 10px;
+}
+
+.header h1{
+    color:rgb(233, 221, 207);
+    text-align: center;
+    margin: 30px 0;
+}
+.header p{
+    color:rgb(233, 221, 207);
+    text-align: right;
+    margin: 10px 10px;
+    font-size: smaller;
+}
+
+.task-input{
+    outline: none;
+    width: 260px;
+    padding: 15px;
+    margin-right: 25px;
+    font-size: 15px;
+    color:rgb(187, 181, 193);
+    background-color: rgb(62, 95, 85);
+    border:1px solid white;
+    border-radius: 10px;
+
+}
+
+.button-add{
+    width:70px;
+    padding:15px 15px;
+    font-size: 15px;
+    border-radius: 10px;
+    border:0;
+    background-color: rgb(243, 232, 217);
+    cursor: pointer;
+}
+
+.list-item{
+    display:flex;
+    margin:20px 0;
+    border:1px solid white;
+    border-radius: 10px;
+    padding:10px;
+    max-height:30px;
+}
+
+.button-complete,
+.button-delete,
+.button-edit{
+    border:none;
+    outline: none;
+    cursor: pointer;
+    background-color: transparent;
+    font-size: 30px;
+    border-radius: 50%;
+}
+.button-complete{
+    color:pink;
+    margin-right: 10px;
+}
+.button-delete{
+    color:grey;
+    margin-right: 10px;
+}
+.button-edit{
+    color:darkaqua;
+    margin-right: 10px;
+}
+
+.complete{
+    text-decoration-style: solid;
+    text-decoration-line: line-through;
+    text-decoration-color: black;
+    opacity:1.0;
+}
+
+.list{
+    width:220px;
+    background-color: rgb(203, 148, 203);
+    border:none;
+    color:rgb(183, 203, 190);
+    font-size: 15px;
+    padding-left: 10px;
+    margin-right: 15px;
+    border-radius: 8px;
+}
+
+input:focus,
+button:focus{
+    outline:none;
+}
